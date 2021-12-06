@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+h2 {
+    margin-top: 25px;
+    color:rgb(39, 39, 39);
+    /* font-family: monospace; */
+    text-transform: uppercase;
+    background-color: rgb(162, 213, 255);
+    /* width: 45%; */
+}
+  
+body {
+    background-color: rgb(255, 249, 239);
+    display: block;
+    font-size: 1.6rem;
+    font-family: "Roboto", Verdana, sans-serif;
+    line-height: 30px;
+    background-color: rgba(236, 224, 202, 0.377);
+}
+
+section,
+p,
+a {
+    margin-top: 10px;
+}
+
+li {
+    margin-top: 4px;
+}
+
+li:first-child {
+    margin-top: 6px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1650px;
+}
+
+pre {
+    white-space: pre;
+}
+
+code {
+    overflow-x: auto;
+}
+
+.layout-2-column {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.column-1 {
+    margin-top: 15px;
+    width: 25%;
+    /* background-color: rgba(207, 184, 161, 0.377); */
+}
+
+.column-2 {
+    width: 50%;
+}
+
+.contact-item {
+    margin-top: 10px;
+}
+

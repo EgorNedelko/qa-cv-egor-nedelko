@@ -1,0 +1,1 @@
+# Egor Nedelko's CV for QA job
